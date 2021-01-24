@@ -43,12 +43,13 @@
 .subscribe .big__price {
   font-size: 2rem;
   color: #fff;
+  margin-right: 0.75rem;
 }
 
 .subscribe .btn {
   display: block;
   width: 95%;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
   background-color: #c0df34;
   color: #fff;
   border: none;
@@ -63,7 +64,12 @@
   color: #fff;
 }
 
-.why__us li {
+.why__us ul {
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.why__us ul li {
   color: #e5eff5;
 }
 
