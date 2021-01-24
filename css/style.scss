@@ -79,6 +79,43 @@ $clrGrayBlue:hsl(218, 22%, 67%);
     
 }
 
+@media(min-width:768px){
+    main{
+        max-width: 700px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header"
+        "subscribe why__us";
+
+        .join{
+            grid-area: header;
+        }
+        .subscribe{
+            grid-area: subscribe;
+        }
+        .why__us{
+            grid-area: why__us;
+        }
+    }
+}
+@media(min-width:1440px){
+    main{
+        max-width: 1400px;
+        .section{
+            padding:4rem 8rem;
+        }
+        .subscribe{
+            .btn{
+                width: 100%;
+            }
+        }
+        
+    }
+}
+
 
 //frontend Mentor
 
