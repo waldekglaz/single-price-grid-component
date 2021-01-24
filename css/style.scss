@@ -99,6 +99,9 @@ $clrGrayBlue:hsl(218, 22%, 67%);
         .why__us{
             grid-area: why__us;
         }
+        .btn:hover{
+            background-color: hsl(71, 90%, 42%);
+        }
     }
 }
 @media(min-width:1440px){
@@ -111,6 +114,7 @@ $clrGrayBlue:hsl(218, 22%, 67%);
             .btn{
                 width: 100%;
             }
+            
         }
         
     }

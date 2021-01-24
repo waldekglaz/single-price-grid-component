@@ -101,6 +101,9 @@
     -ms-grid-column: 2;
     grid-area: why__us;
   }
+  main .btn:hover {
+    background-color: #a8cb0b;
+  }
 }
 
 @media (min-width: 1440px) {
