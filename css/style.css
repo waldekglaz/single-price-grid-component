@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+.section {
+  font-family: "Karla", sans-serif;
+  padding: 2rem 1.5rem;
+  font-size: 16px;
+}
+
+.section .section__title {
+  margin-bottom: 2rem;
+}
+
+.section .section__subtitle {
+  color: #c0df34;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+}
+
+.section .section__paragraph {
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.title--cyan {
+  color: #2ab2af;
+}
+
+.subscribe {
+  background-color: #2ab2af;
+  color: #e5eff5;
+}
+
+.subscribe p {
+  margin-bottom: 1rem;
+}
+
+.subscribe .big__price {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.subscribe .btn {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #c0df34;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(21, 90, 89, 0.3);
+          box-shadow: 2px 2px 1px 1px rgba(21, 90, 89, 0.3);
+}
+
+.why__us {
+  background-color: #12cac7;
+  color: #fff;
+}
+
+.why__us li {
+  color: #e5eff5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */

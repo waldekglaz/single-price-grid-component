@@ -1,0 +1,80 @@
+//Variables
+
+//Typography
+$fontFamily: 'Karla', sans-serif;
+$fontSize: 16px;
+// Colors
+
+$clrCyan: rgb(42, 178, 175);
+$clrYellow:hsl(71, 73%, 54%);
+$clrLightGray: hsl(204, 43%, 93%);
+$clrGrayBlue:hsl(218, 22%, 67%);
+
+
+//Reset
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.section{
+    font-family: $fontFamily;
+    padding: 2rem 1.5rem;
+    font-size: $fontSize;
+    .section__title{
+        
+        margin-bottom: 2rem;
+    }
+    .section__subtitle{
+        color: $clrYellow;
+        margin-bottom: 1.5rem;
+        font-size: $fontSize + 2px;
+    }
+    .section__paragraph{
+        line-height: 1.75;
+        margin-bottom: 1rem;
+    }
+    
+}
+.title--cyan{
+    color: $clrCyan;
+}
+.subscribe{
+    background-color: $clrCyan;
+    color: $clrLightGray;
+    p{
+        margin-bottom: 1rem;
+    }
+    .big__price{
+        font-size: 2rem;
+        color: #fff;
+    }
+    .btn{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        background-color: $clrYellow;
+        color: #fff;
+        border: none;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px 1px rgba(21, 90, 89, 0.3);
+    }
+    
+}
+.why__us{
+    background-color: hsl(179, 84%, 43%);
+    color: #fff;
+    li{
+        color: $clrLightGray;
+    }
+}
+
+
+//frontend Mentor
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
